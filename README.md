@@ -1,0 +1,25 @@
+## Classifying and Counting Grapes using the Support Vector Machine Algorithm and Feature Detection
+
+We used MATLab CV tools' `imfindcircles()` to find grapes in a database of grape photos. We classified grapes through a human-trained SVM algorithm which used image features as classifiers. 
+
+### How the Script Works
+The MATLab script accepts one image from the database. We call `imfindcircles()` on the image and place the coordinates and radii of the circles into separate arrays respectively. We iterate over both arrays and crop out a 2r x 2r image (where r is the radius), centered at the grape x-y position, and ask the human if the image is of a grape. We extract the feature vectors, or descriptors, of the grapes and place them in an array. We train the SVM with the features array. Once the algorithm has been trained, we call `imfindcircles()` with a larger radius range to catch new circles for classification. We initially called the function on circles with smaller radii to remove outliers and only ask the human to train non-outliers. We iterate through the newly found circles and call the `svmclassify()` function on each one. If the svm classifies the circle as a grape, we plot, on the original image, a visual marker at the coordinate and display the final result.
+
+### How to Use
+- You will need MATLab and MATLab CV toolbox installed and configured.
+- You will need to have the environment variable configured if you plan to use the terminal or command prompt.
+- Execute the `grapes.m` script.
+
+### How the Images were Collected
+The Images were taken by an [Autonomous Vehicle for Specialty Crops](https://www.ri.cmu.edu/casc/ "Autonomous Vehicle for Specialty Crops") designed and created by [George Kantor](http://frc.ri.cmu.edu/~kantor/George_Kantors_Home_Page/Home.html "GEORGE KANTOR") and his graduate students. 
+
+### Resources
+[SVM](https://en.wikipedia.org/wiki/Support_vector_machine "SVM")
+[feature detection](https://en.wikipedia.org/wiki/Feature_detection_(computer_vision) "feature detection")
+[Hough Transform](https://en.wikipedia.org/wiki/Hough_transform "Hough Transform")
+
+------------
+
+
+
+This was a group research workshop completed at Carnagie Mellon University's [OurCS](http://www.cs.cmu.edu/ourcs/Team_Leaders_and_Projects.html "OurCS") 2017.
