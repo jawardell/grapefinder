@@ -1,4 +1,4 @@
-## Classifying and Counting Grapes using the Support Vector Machine Model and Feature Detection
+## Classifying and Detecting Grapes using the Support Vector Machine Model and Feature Detection
 
 We used MATLAB CV tools' `imfindcircles()` to find grapes in a database of grape photos. We classified grapes through a human-trained SVM ML model which used image features as classifiers. 
 
