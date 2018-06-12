@@ -7,19 +7,19 @@ The MATLab script accepts one image from the database. We call `imfindcircles()`
 
 ### How to Use
 - You will need MATLab and MATLab CV toolbox installed and configured.
-- You will need to have the environment variable configured if you plan to use the terminal or command prompt.
-- Execute the `grapes.m` script.
+- You will need to have the environment variable setup if you plan to use the terminal or command prompt.
+- Execute the `grapes.m` script either in the MATLab IDE or in the command line using `matlab grapes.m`.
 
 ### How the Images were Collected
 The Images were taken by an [Autonomous Vehicle for Specialty Crops](https://www.ri.cmu.edu/casc/ "Autonomous Vehicle for Specialty Crops") designed and created by [George Kantor](http://frc.ri.cmu.edu/~kantor/George_Kantors_Home_Page/Home.html "GEORGE KANTOR") and his graduate students. 
 
 ### Resources
-[SVM](https://en.wikipedia.org/wiki/Support_vector_machine "SVM")
-[feature detection](https://en.wikipedia.org/wiki/Feature_detection_(computer_vision) "feature detection")
-[Hough Transform](https://en.wikipedia.org/wiki/Hough_transform "Hough Transform")
+[SVM](https://en.wikipedia.org/wiki/Support_vector_machine "SVM")<br>
+[feature detection](https://en.wikipedia.org/wiki/Feature_detection_(computer_vision) "feature detection")<br>
+[Hough Transform](https://en.wikipedia.org/wiki/Hough_transform "Hough Transform")<br>
 
 ------------
 
 
 
-This was a group research workshop completed at Carnagie Mellon University's [OurCS](http://www.cs.cmu.edu/ourcs/Team_Leaders_and_Projects.html "OurCS") 2017.
+This was a group research project completed at Carnagie Mellon University's [OurCS](http://www.cs.cmu.edu/ourcs/Team_Leaders_and_Projects.html "OurCS") 2017.
