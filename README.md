@@ -24,4 +24,4 @@ The images were taken by an [Autonomous Vehicle for Specialty Crops](https://www
 
 
 
-This was a group research project completed at Carnagie Mellon University's [OurCS](http://www.cs.cmu.edu/ourcs/Team_Leaders_and_Projects.html "OurCS") 2017.
+This was a group research project that I participated in. It was completed at Carnagie Mellon University's [OurCS](http://www.cs.cmu.edu/ourcs/Team_Leaders_and_Projects.html "OurCS") 2017.
