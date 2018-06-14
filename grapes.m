@@ -28,7 +28,6 @@ I=imread('1.jpg');
 [pts, radii]=imfindcircles(I,[10 30],'Sensitivity',0.9);
 figure()
 imshow(I);hold on
-
 for i=1:length(pts)
     part = I(pts(i,2)-radii(i):pts(i,2)+radii(i),pts(i,1)-radii(i):pts(i,1)+radii(i),:);
        feature = extractFeatures(rgb2gray(I),pts(i,:));
