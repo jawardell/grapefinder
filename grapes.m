@@ -1,8 +1,5 @@
 I=imread('1.jpg');
 [pts, radii]=imfindcircles(I,[5 30],'Sensitivity',0.9);
-% figure()
-% imshow(I);hold on
-% viscircles(pts,radii)
 features = [];
 labels=[];
 count = 1;
@@ -25,10 +22,8 @@ for i=1:length(pts)
          disp('Out of bounds, skipping...')
      end
 end
- 
 options.MaxIter = 100000;
 model = svmtrain(double(features),labels','Options',options);
-
 I=imread('1.jpg');
 [pts, radii]=imfindcircles(I,[10 30],'Sensitivity',0.9);
 figure()
