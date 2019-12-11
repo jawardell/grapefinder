@@ -12,7 +12,7 @@ The MATLAB script accepts one image from the database. We call `imfindcircles()`
 - Execute the `grapes.m` script either in the MATLAB IDE or in the command line using `matlab grapes.m`.
 
 ### How the Images were Collected
-The images were taken by an [Autonomous Vehicle for Specialty Crops](https://www.ri.cmu.edu/casc/ "Autonomous Vehicle for Specialty Crops") designed and created by [George Kantor](http://frc.ri.cmu.edu/~kantor/George_Kantors_Home_Page/Home.html "GEORGE KANTOR") and his graduate students. 
+The images were taken by an Autonomous Vehicle for Specialty Crops designed and created by [George Kantor](http://frc.ri.cmu.edu/~kantor/George_Kantors_Home_Page/Home.html "GEORGE KANTOR") and his graduate students. 
 <br><img src="https://github.com/jawardell/grapefinder/blob/master/imgs/img_1.png"><br><br>
 ### Resources
 [SVM](https://en.wikipedia.org/wiki/Support_vector_machine "SVM")<br>
